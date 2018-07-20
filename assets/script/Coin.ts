@@ -33,7 +33,8 @@ export class Coin extends cc.Component {
 
     // 获得硬币时
     public onGetCoin() {
-
+        this.game.createNewCoin();
+        this.node.destroy();
     }
 
 
@@ -46,6 +47,9 @@ export class Coin extends cc.Component {
     // }
 
     update (dt) {
-        this.getPlayerDistance();
+        if (this.getPlayerDistance() < this.pickRaius) {
+            this.onGetCoin();
+            return;
+        }
     }
 }

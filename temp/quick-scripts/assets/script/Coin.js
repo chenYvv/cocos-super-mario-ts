@@ -32,13 +32,18 @@ var Coin = /** @class */ (function (_super) {
     };
     // 获得硬币时
     Coin.prototype.onGetCoin = function () {
+        this.game.createNewCoin();
+        this.node.destroy();
     };
     // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
     // start () {
     // }
     Coin.prototype.update = function (dt) {
-        this.getPlayerDistance();
+        if (this.getPlayerDistance() < this.pickRaius) {
+            this.onGetCoin();
+            return;
+        }
     };
     __decorate([
         property(cc.Integer)

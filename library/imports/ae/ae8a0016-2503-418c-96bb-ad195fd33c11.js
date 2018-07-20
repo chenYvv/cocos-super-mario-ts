@@ -41,7 +41,7 @@ var Player = /** @class */ (function (_super) {
     // 初始化
     Player.prototype.onLoad = function () {
         // 使用重复跳跃
-        // this.node.runAction(this.setJumpAction());
+        this.node.runAction(this.setJumpAction());
         // 初始化输入监听
         this.addEventListeners();
         // 初始化加速度方向

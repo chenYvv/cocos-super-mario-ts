@@ -1,0 +1,62 @@
+2018-07-20T09:41:51.881Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-20T09:41:51.886Z - normal: checking language setting...
+2018-07-20T09:41:51.886Z - normal: Language: zh
+2018-07-20T09:41:55.505Z - success: protocol editor-framework registered
+2018-07-20T09:41:55.505Z - success: protocol app registered
+2018-07-20T09:41:55.505Z - success: protocol theme registered
+2018-07-20T09:41:55.505Z - success: protocol packages registered
+2018-07-20T09:41:55.505Z - success: protocol unpack registerred
+2018-07-20T09:41:55.505Z - success: protocol disable-commonjs registerred
+2018-07-20T09:41:55.649Z - warn: [20406]授权客户端不存在。
+2018-07-20T09:41:55.653Z - normal: connected!
+2018-07-20T09:41:55.654Z - normal: Check project D:\project-cocos\monster-star-ts
+2018-07-20T09:41:55.656Z - normal: Initializing Cocos2d
+2018-07-20T09:41:57.009Z - normal: Initializing Asset Database
+2018-07-20T09:41:57.045Z - success: protocol uuid registerred
+2018-07-20T09:41:57.045Z - success: protocol db registerred
+2018-07-20T09:41:57.045Z - success: protocol thumbnail registerred
+2018-07-20T09:41:57.046Z - normal: Loading editor/builtin packages
+2018-07-20T09:41:57.066Z - success: anysdk loaded
+2018-07-20T09:41:57.188Z - success: assets loaded
+2018-07-20T09:41:57.190Z - success: builder loaded
+2018-07-20T09:41:57.192Z - success: cocos-analytics loaded
+2018-07-20T09:41:57.196Z - success: console loaded
+2018-07-20T09:41:57.242Z - success: fb-instant-games loaded
+2018-07-20T09:41:57.245Z - success: hierarchy loaded
+2018-07-20T09:41:57.248Z - success: inspector loaded
+2018-07-20T09:41:57.250Z - success: keystore loaded
+2018-07-20T09:41:57.252Z - success: node-library loaded
+2018-07-20T09:41:57.253Z - success: package-asset loaded
+2018-07-20T09:41:57.255Z - success: preferences loaded
+2018-07-20T09:41:57.256Z - success: project-exporter loaded
+2018-07-20T09:41:57.270Z - success: project-importer loaded
+2018-07-20T09:41:57.272Z - success: project-settings loaded
+2018-07-20T09:41:57.283Z - success: ui-kit loaded
+2018-07-20T09:41:57.291Z - success: ui-grid loaded
+2018-07-20T09:41:57.294Z - success: scene loaded
+2018-07-20T09:41:57.296Z - success: sprite-editor loaded
+2018-07-20T09:41:57.299Z - success: store loaded
+2018-07-20T09:41:57.303Z - success: timeline loaded
+2018-07-20T09:41:57.303Z - normal: Loading builtin packages
+2018-07-20T09:41:57.316Z - success: asset-db-debugger loaded
+2018-07-20T09:41:57.326Z - success: code-editor loaded
+2018-07-20T09:41:57.331Z - success: color-picker loaded
+2018-07-20T09:41:57.342Z - success: package-manager loaded
+2018-07-20T09:41:57.348Z - success: qqplay-adapter loaded
+2018-07-20T09:41:57.363Z - success: sdkbox loaded
+2018-07-20T09:41:57.380Z - success: tester loaded
+2018-07-20T09:41:57.392Z - success: ui-kit-preview-extra loaded
+2018-07-20T09:41:57.402Z - success: ui-kit-preview loaded
+2018-07-20T09:41:57.410Z - success: ui-tree loaded
+2018-07-20T09:41:57.415Z - success: weapp-adapter loaded
+2018-07-20T09:41:58.582Z - normal: Initializing project D:\project-cocos\monster-star-ts
+2018-07-20T09:41:58.589Z - normal: Loading packages
+2018-07-20T09:41:58.596Z - normal: Watching packages
+2018-07-20T09:41:58.872Z - normal: Run Application
+2018-07-20T09:41:59.938Z - success: preview server running at http://localhost:7456
+2018-07-20T09:42:06.539Z - normal: 1.9.3
+2018-07-20T09:46:05.918Z - success: API data generated and copied to D:\project-cocos\monster-star-ts\creator.d.ts
+2018-07-20T09:46:07.680Z - success: VS Code extension installed to C:\Users\ChenYvv\.vscode\extensions
+2018-07-20T09:46:09.208Z - success: TypeScript Configuration file has been copied to D:\project-cocos\monster-star-ts\tsconfig.json
+2018-07-20T09:46:12.761Z - success: Chrome debug setting has been updated to .vscode/launch.json, please install Debugger for Chrome VS Code extension to debug your project.
+2018-07-20T09:46:14.666Z - success: Compiling task has been added to .vscode/tasks.json, please run "compile" task in VS Code to trigger compile in Cocos Creator.

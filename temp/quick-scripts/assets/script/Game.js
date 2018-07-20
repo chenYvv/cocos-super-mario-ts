@@ -23,7 +23,12 @@ var Game = /** @class */ (function (_super) {
         _this.groundNode = null;
         // 马里奥节点
         _this.playerNode = null;
+        // 积分显示节点
+        _this.scoreLabel = null;
+        // 硬币节点
         _this.coinNode = null;
+        // 积分
+        _this.score = 0;
         return _this;
         // update (dt) {}
     }
@@ -56,6 +61,11 @@ var Game = /** @class */ (function (_super) {
         coinX += coinWith / 2 * -(Math.abs(coinX) / coinX);
         return cc.p(coinX, coinY);
     };
+    // 增加积分
+    Game.prototype.gainScore = function () {
+        this.score++;
+        this.scoreLabel.string = 'Score:' + this.score.toString;
+    };
     // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
     Game.prototype.start = function () {
@@ -69,6 +79,9 @@ var Game = /** @class */ (function (_super) {
     __decorate([
         property(cc.Node)
     ], Game.prototype, "playerNode", void 0);
+    __decorate([
+        property(cc.Node)
+    ], Game.prototype, "scoreLabel", void 0);
     Game = __decorate([
         ccclass
     ], Game);

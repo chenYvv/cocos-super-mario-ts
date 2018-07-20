@@ -280,7 +280,7 @@
     "relativePath": "textures\\star.png"
   },
   "decd17b1-58c5-45ab-a8f9-93c6707795ba": {
-    "asset": 1532049649568,
+    "asset": 1532070004916,
     "meta": 1532049582224,
     "relativePath": "script"
   },
@@ -300,28 +300,28 @@
     "relativePath": "prefabs\\coin.prefab"
   },
   "8ea3bd48-62fd-4c0d-984d-5bd095477b0b": {
-    "asset": 1532070150115,
+    "asset": 1532070209804,
     "meta": 1532070150120,
     "relativePath": "prefabs"
   },
+  "2e3610f4-bfa5-40c5-a1c3-bc848d05e5ec": {
+    "asset": 1532080965943,
+    "meta": 1532080965974,
+    "relativePath": "game.fire"
+  },
   "ae8a0016-2503-418c-96bb-ad195fd33c11": {
-    "asset": 1532074083615,
-    "meta": 1532074088318,
+    "asset": 1532080133796,
+    "meta": 1532080135599,
     "relativePath": "script\\Player.ts"
   },
-  "1c41dc42-c45e-4953-9dbe-6bca8c9f1c6e": {
-    "asset": 1532077440183,
-    "meta": 1532077463147,
-    "relativePath": "script\\Game.ts"
-  },
   "2f7f5478-1ea1-43c6-aed0-506a555ed976": {
-    "asset": 1532079218474,
-    "meta": 1532079527243,
+    "asset": 1532080388770,
+    "meta": 1532080545194,
     "relativePath": "script\\Coin.ts"
   },
-  "2e3610f4-bfa5-40c5-a1c3-bc848d05e5ec": {
-    "asset": 1532079588295,
-    "meta": 1532079588313,
-    "relativePath": "game.fire"
+  "1c41dc42-c45e-4953-9dbe-6bca8c9f1c6e": {
+    "asset": 1532080857161,
+    "meta": 1532080859388,
+    "relativePath": "script\\Game.ts"
   }
 }

@@ -45,7 +45,7 @@ export class Player extends cc.Component {
     // 初始化
     protected onLoad() {
         // 使用重复跳跃
-        // this.node.runAction(this.setJumpAction());
+        this.node.runAction(this.setJumpAction());
 
         // 初始化输入监听
         this.addEventListeners();
