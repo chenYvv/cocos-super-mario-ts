@@ -28,14 +28,13 @@ export class Game extends cc.Component {
     public playerNode: cc.Node = null;
 
     // 积分显示节点
-    @property(cc.Node)
-    public scoreLabel: cc.Label = null;
+    @property(cc.Label)
+    private scoreLabel: cc.Label = null;
 
     // 硬币节点
     private coinNode: cc.Node = null;
     // 积分
     private score: number = 0;
-
     // 初始化
     protected onLoad() {
         // 创建硬币
@@ -71,7 +70,8 @@ export class Game extends cc.Component {
     // 增加积分
     public gainScore() {
         this.score ++;
-        this.scoreLabel.string = 'Score:' +  this.score.toString;
+        this.scoreLabel.string = 'Score: ' + this.score.toString();
+        console.log(this.scoreLabel.string)
     }
 
     // LIFE-CYCLE CALLBACKS:

@@ -33,7 +33,11 @@ export class Coin extends cc.Component {
 
     // 获得硬币时
     public onGetCoin() {
+        // 创建新的硬币
         this.game.createNewCoin();
+        // 加积分
+        this.game.gainScore();
+        // 删除现在的硬币
         this.node.destroy();
     }
 

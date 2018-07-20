@@ -32,7 +32,11 @@ var Coin = /** @class */ (function (_super) {
     };
     // 获得硬币时
     Coin.prototype.onGetCoin = function () {
+        // 创建新的硬币
         this.game.createNewCoin();
+        // 加积分
+        this.game.gainScore();
+        // 删除现在的硬币
         this.node.destroy();
     };
     // LIFE-CYCLE CALLBACKS:

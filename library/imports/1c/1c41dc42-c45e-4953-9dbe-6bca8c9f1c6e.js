@@ -64,7 +64,8 @@ var Game = /** @class */ (function (_super) {
     // 增加积分
     Game.prototype.gainScore = function () {
         this.score++;
-        this.scoreLabel.string = 'Score:' + this.score.toString;
+        this.scoreLabel.string = 'Score: ' + this.score.toString();
+        console.log(this.scoreLabel.string);
     };
     // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
@@ -80,7 +81,7 @@ var Game = /** @class */ (function (_super) {
         property(cc.Node)
     ], Game.prototype, "playerNode", void 0);
     __decorate([
-        property(cc.Node)
+        property(cc.Label)
     ], Game.prototype, "scoreLabel", void 0);
     Game = __decorate([
         ccclass
