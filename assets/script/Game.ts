@@ -29,18 +29,25 @@ export class Game extends cc.Component {
 
     // 积分显示节点
     @property(cc.Label)
+<<<<<<< HEAD
     public scoreLabel: cc.Label = null;
+=======
+    private scoreLabel: cc.Label = null;
+>>>>>>> 154a41b2947654de198298777320ee0ce1160ba2
 
     // 硬币节点
     private coinNode: cc.Node = null;
     // 积分
     private score: number = 0;
+<<<<<<< HEAD
     // 计时器
     public timer: number = 0;
     // 持续时间
     @property(cc.Integer)
     public coinDuration: number = 0;
 
+=======
+>>>>>>> 154a41b2947654de198298777320ee0ce1160ba2
     // 初始化
     protected onLoad() {
         // 创建硬币
@@ -80,6 +87,7 @@ export class Game extends cc.Component {
     // 增加积分
     public gainScore() {
         this.score ++;
+<<<<<<< HEAD
         // 拼接字符串
         this.scoreLabel.string = 'Score:' +  this.score.toString();
     }
@@ -90,6 +98,10 @@ export class Game extends cc.Component {
         this.playerNode.stopAllActions();
         // 启动开始场景
         cc.director.loadScene('game');
+=======
+        this.scoreLabel.string = 'Score: ' + this.score.toString();
+        console.log(this.scoreLabel.string)
+>>>>>>> 154a41b2947654de198298777320ee0ce1160ba2
     }
 
     // LIFE-CYCLE CALLBACKS:

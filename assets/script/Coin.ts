@@ -33,11 +33,19 @@ export class Coin extends cc.Component {
 
     // 获得硬币时
     public onGetCoin() {
+<<<<<<< HEAD
         // 创建新 硬币prefab
         this.game.createNewCoin();
         // 增加积分
         this.game.gainScore();
         // 销毁当前硬币节点
+=======
+        // 创建新的硬币
+        this.game.createNewCoin();
+        // 加积分
+        this.game.gainScore();
+        // 删除现在的硬币
+>>>>>>> 154a41b2947654de198298777320ee0ce1160ba2
         this.node.destroy();
     }
 

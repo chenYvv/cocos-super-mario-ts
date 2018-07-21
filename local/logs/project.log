@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 2018-07-21T03:00:02.458Z - normal: Load ~/.CocosCreator/settings.json
 2018-07-21T03:00:02.462Z - normal: checking language setting...
 2018-07-21T03:00:02.462Z - normal: Language: zh
@@ -135,3 +136,5 @@
 2018-07-21T03:01:57.123Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
 2018-07-21T03:01:57.183Z - normal: Generating html from D:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
 2018-07-21T03:01:57.200Z - normal: Built to "D:\project-cocos\monster-star-ts\build\web-mobile" successfully
+=======
+>>>>>>> 154a41b2947654de198298777320ee0ce1160ba2
