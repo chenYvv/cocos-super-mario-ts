@@ -29,13 +29,18 @@ var Game = /** @class */ (function (_super) {
         _this.coinNode = null;
         // 积分
         _this.score = 0;
+        // 计时器
+        _this.timer = 0;
+        // 持续时间
+        _this.coinDuration = 0;
         return _this;
-        // update (dt) {}
     }
     // 初始化
     Game.prototype.onLoad = function () {
         // 创建硬币
         this.createNewCoin();
+        // 计时器
+        this.timer = 0;
     };
     // 生成一个新的硬币
     Game.prototype.createNewCoin = function () {
@@ -47,6 +52,8 @@ var Game = /** @class */ (function (_super) {
         newCoin.setPosition(this.createNewCoinPos());
         // 将 Game 组件的实例传入星星组件
         newCoin.getComponent('Coin').game = this;
+        // 计时器清零
+        this.timer = 0;
     };
     // 硬币随机生成一个坐标
     Game.prototype.createNewCoinPos = function () {
@@ -64,11 +71,27 @@ var Game = /** @class */ (function (_super) {
     // 增加积分
     Game.prototype.gainScore = function () {
         this.score++;
-        this.scoreLabel.string = 'Score:' + this.score.toString;
+        // 拼接字符串
+        this.scoreLabel.string = 'Score:' + this.score.toString();
+    };
+    // 游戏结束 重新开始
+    Game.prototype.gameOver = function () {
+        // 停止马里奥动作
+        this.playerNode.stopAllActions();
+        // 启动开始场景
+        cc.director.loadScene('game');
     };
     // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
     Game.prototype.start = function () {
+    };
+    Game.prototype.update = function (dt) {
+        // 计时++
+        this.timer += dt;
+        // 判断收集所需时间
+        if (this.timer > this.coinDuration) {
+            this.gameOver();
+        }
     };
     __decorate([
         property(cc.Prefab)
@@ -80,8 +103,11 @@ var Game = /** @class */ (function (_super) {
         property(cc.Node)
     ], Game.prototype, "playerNode", void 0);
     __decorate([
-        property(cc.Node)
+        property(cc.Label)
     ], Game.prototype, "scoreLabel", void 0);
+    __decorate([
+        property(cc.Integer)
+    ], Game.prototype, "coinDuration", void 0);
     Game = __decorate([
         ccclass
     ], Game);

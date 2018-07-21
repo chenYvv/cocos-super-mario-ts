@@ -305,23 +305,23 @@
     "relativePath": "prefabs"
   },
   "2e3610f4-bfa5-40c5-a1c3-bc848d05e5ec": {
-    "asset": 1532080965943,
-    "meta": 1532080965974,
+    "asset": 1532142498827,
+    "meta": 1532142498841,
     "relativePath": "game.fire"
   },
   "ae8a0016-2503-418c-96bb-ad195fd33c11": {
-    "asset": 1532080133796,
-    "meta": 1532080135599,
+    "asset": 1532133987177,
+    "meta": 1532134083207,
     "relativePath": "script\\Player.ts"
   },
-  "2f7f5478-1ea1-43c6-aed0-506a555ed976": {
-    "asset": 1532080388770,
-    "meta": 1532080545194,
-    "relativePath": "script\\Coin.ts"
-  },
   "1c41dc42-c45e-4953-9dbe-6bca8c9f1c6e": {
-    "asset": 1532080857161,
-    "meta": 1532080859388,
+    "asset": 1532139776635,
+    "meta": 1532139872679,
     "relativePath": "script\\Game.ts"
+  },
+  "2f7f5478-1ea1-43c6-aed0-506a555ed976": {
+    "asset": 1532141469747,
+    "meta": 1532141471014,
+    "relativePath": "script\\Coin.ts"
   }
 }

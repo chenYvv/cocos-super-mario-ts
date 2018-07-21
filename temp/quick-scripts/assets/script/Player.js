@@ -103,7 +103,6 @@ var Player = /** @class */ (function (_super) {
     };
     // 屏幕-按下
     Player.prototype.onScreenTouchStart = function (event) {
-        console.log(event.getLocation());
         if (event.getLocationX() > cc.winSize.width / 2) {
             this.moveRight();
         }

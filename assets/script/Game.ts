@@ -28,18 +28,25 @@ export class Game extends cc.Component {
     public playerNode: cc.Node = null;
 
     // 积分显示节点
-    @property(cc.Node)
+    @property(cc.Label)
     public scoreLabel: cc.Label = null;
 
     // 硬币节点
     private coinNode: cc.Node = null;
     // 积分
     private score: number = 0;
+    // 计时器
+    public timer: number = 0;
+    // 持续时间
+    @property(cc.Integer)
+    public coinDuration: number = 0;
 
     // 初始化
     protected onLoad() {
         // 创建硬币
         this.createNewCoin();
+        // 计时器
+        this.timer = 0;
     }
 
     // 生成一个新的硬币
@@ -52,6 +59,8 @@ export class Game extends cc.Component {
         newCoin.setPosition(this.createNewCoinPos());
         // 将 Game 组件的实例传入星星组件
         newCoin.getComponent('Coin').game = this;
+        // 计时器清零
+        this.timer = 0;
     }
 
     // 硬币随机生成一个坐标
@@ -71,7 +80,16 @@ export class Game extends cc.Component {
     // 增加积分
     public gainScore() {
         this.score ++;
-        this.scoreLabel.string = 'Score:' +  this.score.toString;
+        // 拼接字符串
+        this.scoreLabel.string = 'Score:' +  this.score.toString();
+    }
+
+    // 游戏结束 重新开始
+    public gameOver() {
+        // 停止马里奥动作
+        this.playerNode.stopAllActions();
+        // 启动开始场景
+        cc.director.loadScene('game');
     }
 
     // LIFE-CYCLE CALLBACKS:
@@ -82,5 +100,12 @@ export class Game extends cc.Component {
 
     }
 
-    // update (dt) {}
+    update (dt) {
+        // 计时++
+        this.timer += dt;
+        // 判断收集所需时间
+        if ( this.timer > this.coinDuration ) {
+            this.gameOver();
+        }
+    }
 }

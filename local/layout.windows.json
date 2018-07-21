@@ -101,5 +101,12 @@
       ]
     }
   },
-  "panels": {}
+  "panels": {
+    "builder": {
+      "x": 702,
+      "y": 140,
+      "width": 516,
+      "height": 739
+    }
+  }
 }

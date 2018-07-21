@@ -117,7 +117,6 @@ export class Player extends cc.Component {
 
     // 屏幕-按下
     private onScreenTouchStart(event: cc.Event.EventTouch) {
-        console.log(event.getLocation())
         if ( event.getLocationX() > cc.winSize.width/2 ){
             this.moveRight();
         }else{

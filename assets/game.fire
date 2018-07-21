@@ -474,6 +474,9 @@
     "playerNode": {
       "__id__": 7
     },
-    "scoreLabel": null
+    "scoreLabel": {
+      "__id__": 11
+    },
+    "coinDuration": 3
   }
 ]

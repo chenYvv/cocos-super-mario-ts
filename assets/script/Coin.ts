@@ -33,7 +33,11 @@ export class Coin extends cc.Component {
 
     // 获得硬币时
     public onGetCoin() {
+        // 创建新 硬币prefab
         this.game.createNewCoin();
+        // 增加积分
+        this.game.gainScore();
+        // 销毁当前硬币节点
         this.node.destroy();
     }
 
@@ -47,9 +51,14 @@ export class Coin extends cc.Component {
     // }
 
     update (dt) {
+        // 如果小于距离就获取
         if (this.getPlayerDistance() < this.pickRaius) {
             this.onGetCoin();
             return;
         }
+        // 按照计时器和最大时间 比例来减少透明度
+        let coinMinOpacity = 50;
+        let coinOpacityRatio = this.game.timer/this.game.coinDuration;
+        this.node.opacity = 255 - Math.floor((255 - coinMinOpacity)*coinOpacityRatio);
     }
 }
