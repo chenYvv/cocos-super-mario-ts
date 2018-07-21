@@ -1,140 +1,56 @@
-<<<<<<< HEAD
-2018-07-21T03:00:02.458Z - normal: Load ~/.CocosCreator/settings.json
-2018-07-21T03:00:02.462Z - normal: checking language setting...
-2018-07-21T03:00:02.462Z - normal: Language: zh
-2018-07-21T03:00:06.478Z - success: protocol editor-framework registered
-2018-07-21T03:00:06.478Z - success: protocol app registered
-2018-07-21T03:00:06.478Z - success: protocol theme registered
-2018-07-21T03:00:06.478Z - success: protocol packages registered
-2018-07-21T03:00:06.478Z - success: protocol unpack registerred
-2018-07-21T03:00:06.478Z - success: protocol disable-commonjs registerred
-2018-07-21T03:00:06.578Z - normal: connected!
-2018-07-21T03:00:06.581Z - normal: Check project D:\project-cocos\monster-star-ts
-2018-07-21T03:00:06.592Z - normal: Initializing Cocos2d
-2018-07-21T03:00:06.809Z - normal: Initializing Asset Database
-2018-07-21T03:00:06.844Z - success: protocol uuid registerred
-2018-07-21T03:00:06.844Z - success: protocol db registerred
-2018-07-21T03:00:06.844Z - success: protocol thumbnail registerred
-2018-07-21T03:00:06.844Z - normal: Loading editor/builtin packages
-2018-07-21T03:00:06.865Z - success: anysdk loaded
-2018-07-21T03:00:06.982Z - success: assets loaded
-2018-07-21T03:00:06.984Z - success: builder loaded
-2018-07-21T03:00:06.987Z - success: cocos-analytics loaded
-2018-07-21T03:00:06.991Z - success: console loaded
-2018-07-21T03:00:07.033Z - success: fb-instant-games loaded
-2018-07-21T03:00:07.035Z - success: hierarchy loaded
-2018-07-21T03:00:07.039Z - success: inspector loaded
-2018-07-21T03:00:07.040Z - success: keystore loaded
-2018-07-21T03:00:07.042Z - success: node-library loaded
-2018-07-21T03:00:07.043Z - success: package-asset loaded
-2018-07-21T03:00:07.045Z - success: preferences loaded
-2018-07-21T03:00:07.046Z - success: project-exporter loaded
-2018-07-21T03:00:07.061Z - success: project-importer loaded
-2018-07-21T03:00:07.063Z - success: project-settings loaded
-2018-07-21T03:00:07.065Z - success: ui-kit loaded
-2018-07-21T03:00:07.075Z - success: ui-grid loaded
-2018-07-21T03:00:07.078Z - success: scene loaded
-2018-07-21T03:00:07.079Z - success: sprite-editor loaded
-2018-07-21T03:00:07.081Z - success: store loaded
-2018-07-21T03:00:07.085Z - success: timeline loaded
-2018-07-21T03:00:07.085Z - normal: Loading builtin packages
-2018-07-21T03:00:07.097Z - success: asset-db-debugger loaded
-2018-07-21T03:00:07.105Z - success: code-editor loaded
-2018-07-21T03:00:07.109Z - success: color-picker loaded
-2018-07-21T03:00:07.120Z - success: package-manager loaded
-2018-07-21T03:00:07.126Z - success: qqplay-adapter loaded
-2018-07-21T03:00:07.153Z - success: sdkbox loaded
-2018-07-21T03:00:07.169Z - success: tester loaded
-2018-07-21T03:00:07.180Z - success: ui-kit-preview-extra loaded
-2018-07-21T03:00:07.186Z - success: ui-kit-preview loaded
-2018-07-21T03:00:07.196Z - success: ui-tree loaded
-2018-07-21T03:00:07.201Z - success: weapp-adapter loaded
-2018-07-21T03:00:08.368Z - normal: Initializing project D:\project-cocos\monster-star-ts
-2018-07-21T03:00:08.378Z - normal: Loading packages
-2018-07-21T03:00:08.384Z - normal: Watching packages
-2018-07-21T03:00:08.657Z - normal: Run Application
-2018-07-21T03:00:09.648Z - success: preview server running at http://localhost:7456
-2018-07-21T03:00:15.375Z - normal: 1.9.3
-2018-07-21T03:00:58.381Z - normal: Start building with options : {
-  "androidStudio": true,
-  "apiLevel": "",
-  "appABIs": [],
-  "appKey": "",
-  "appSecret": "",
-  "buildPath": "D:\\project-cocos\\monster-star-ts\\build",
-  "debug": false,
-  "dest": "D:\\project-cocos\\monster-star-ts\\build\\web-mobile",
-  "encryptJs": true,
-  "excludeScenes": [],
-  "excludedModules": [],
-  "fb-instant-games": {},
-  "includeAnySDK": false,
-  "includeEruda": false,
-  "includeSDKBox": false,
-  "inlineSpriteFrames": true,
-  "inlineSpriteFrames_native": true,
-  "jailbreakPlatform": false,
-  "md5Cache": false,
-  "mergeStartScene": false,
-  "oauthLoginServer": "",
-  "optimizeHotUpdate": false,
-  "orientation": {
-    "landscapeLeft": true,
-    "landscapeRight": true,
-    "portrait": false,
-    "upsideDown": false
-  },
-  "packageName": "org.cocos2d.monster-star-ts",
-  "platform": "web-mobile",
-  "previewHeight": "720",
-  "previewWidth": "1280",
-  "privateKey": "",
-  "qqplay": {
-    "REMOTE_SERVER_ROOT": "",
-    "orientation": "portrait"
-  },
-  "renderMode": "0",
-  "scenes": [
-    "2e3610f4-bfa5-40c5-a1c3-bc848d05e5ec"
-  ],
-  "sourceMaps": false,
-  "startScene": "2e3610f4-bfa5-40c5-a1c3-bc848d05e5ec",
-  "template": "link",
-  "title": "monster-star-ts",
-  "useDebugKeystore": true,
-  "vsVersion": "auto",
-  "webOrientation": "landscape",
-  "wechatgame": {
-    "REMOTE_SERVER_ROOT": "",
-    "appid": "wx6ac3f5090a6b99c5",
-    "isSubdomain": false,
-    "orientation": "portrait",
-    "subContext": ""
-  },
-  "xxteaKey": "4e9dadad-da28-4d",
-  "zipCompressJs": true,
-  "project": "D:\\project-cocos\\monster-star-ts",
-  "projectName": "monster-star-ts",
-  "debugBuildWorker": false
-}
-2018-07-21T03:00:58.383Z - normal: Building D:\project-cocos\monster-star-ts
-2018-07-21T03:00:58.383Z - normal: Destination D:\project-cocos\monster-star-ts\build\web-mobile
-2018-07-21T03:00:58.698Z - normal: Delete D:\project-cocos\monster-star-ts\build\web-mobile\**\*
-2018-07-21T03:01:52.421Z - normal: Compiled project javascript file successfully
-2018-07-21T03:01:52.422Z - normal: Start building assets
-2018-07-21T03:01:52.422Z - normal: Start spawn build-worker
-2018-07-21T03:01:53.314Z - normal: Finish spawn build-worker
-2018-07-21T03:01:53.315Z - normal: Start init build-worker
-2018-07-21T03:01:55.938Z - normal: 1.9.3
-2018-07-21T03:01:56.171Z - normal: Finish init build-worker
-2018-07-21T03:01:56.171Z - normal: Start build-assets in worker
-2018-07-21T03:01:56.779Z - normal: Finish build-assets in worker
-2018-07-21T03:01:56.790Z - normal: Finish building assets
-2018-07-21T03:01:56.812Z - normal: Start building raw assets
-2018-07-21T03:01:56.813Z - normal: Start building plugin scripts
-2018-07-21T03:01:56.961Z - normal: Finish building raw assets
-2018-07-21T03:01:57.123Z - normal: Generating main.js from D:\CocosCreator\resources\static\build-templates\shares\main.js
-2018-07-21T03:01:57.183Z - normal: Generating html from D:\CocosCreator\resources\static\build-templates\web-mobile\template\index.html
-2018-07-21T03:01:57.200Z - normal: Built to "D:\project-cocos\monster-star-ts\build\web-mobile" successfully
-=======
->>>>>>> 154a41b2947654de198298777320ee0ce1160ba2
+2018-07-21T03:21:00.063Z - normal: Load ~/.CocosCreator/settings.json
+2018-07-21T03:21:00.067Z - normal: checking language setting...
+2018-07-21T03:21:00.068Z - normal: Language: zh
+2018-07-21T03:21:01.915Z - success: protocol editor-framework registered
+2018-07-21T03:21:01.915Z - success: protocol app registered
+2018-07-21T03:21:01.916Z - success: protocol theme registered
+2018-07-21T03:21:01.916Z - success: protocol packages registered
+2018-07-21T03:21:01.916Z - success: protocol unpack registerred
+2018-07-21T03:21:01.916Z - success: protocol disable-commonjs registerred
+2018-07-21T03:21:02.023Z - normal: connected!
+2018-07-21T03:21:02.025Z - normal: Check project D:\project-cocos\monster-star-ts
+2018-07-21T03:21:02.027Z - normal: Initializing Cocos2d
+2018-07-21T03:21:02.248Z - normal: Initializing Asset Database
+2018-07-21T03:21:02.281Z - success: protocol uuid registerred
+2018-07-21T03:21:02.281Z - success: protocol db registerred
+2018-07-21T03:21:02.281Z - success: protocol thumbnail registerred
+2018-07-21T03:21:02.281Z - normal: Loading editor/builtin packages
+2018-07-21T03:21:02.300Z - success: anysdk loaded
+2018-07-21T03:21:02.419Z - success: assets loaded
+2018-07-21T03:21:02.421Z - success: builder loaded
+2018-07-21T03:21:02.423Z - success: cocos-analytics loaded
+2018-07-21T03:21:02.426Z - success: console loaded
+2018-07-21T03:21:02.469Z - success: fb-instant-games loaded
+2018-07-21T03:21:02.472Z - success: hierarchy loaded
+2018-07-21T03:21:02.475Z - success: inspector loaded
+2018-07-21T03:21:02.476Z - success: keystore loaded
+2018-07-21T03:21:02.478Z - success: node-library loaded
+2018-07-21T03:21:02.479Z - success: package-asset loaded
+2018-07-21T03:21:02.481Z - success: preferences loaded
+2018-07-21T03:21:02.482Z - success: project-exporter loaded
+2018-07-21T03:21:02.497Z - success: project-importer loaded
+2018-07-21T03:21:02.499Z - success: project-settings loaded
+2018-07-21T03:21:02.501Z - success: ui-kit loaded
+2018-07-21T03:21:02.503Z - success: ui-grid loaded
+2018-07-21T03:21:02.506Z - success: scene loaded
+2018-07-21T03:21:02.507Z - success: sprite-editor loaded
+2018-07-21T03:21:02.509Z - success: store loaded
+2018-07-21T03:21:02.513Z - success: timeline loaded
+2018-07-21T03:21:02.513Z - normal: Loading builtin packages
+2018-07-21T03:21:02.516Z - success: asset-db-debugger loaded
+2018-07-21T03:21:02.517Z - success: code-editor loaded
+2018-07-21T03:21:02.518Z - success: color-picker loaded
+2018-07-21T03:21:02.520Z - success: package-manager loaded
+2018-07-21T03:21:02.522Z - success: qqplay-adapter loaded
+2018-07-21T03:21:02.525Z - success: sdkbox loaded
+2018-07-21T03:21:02.527Z - success: tester loaded
+2018-07-21T03:21:02.529Z - success: ui-kit-preview-extra loaded
+2018-07-21T03:21:02.530Z - success: ui-kit-preview loaded
+2018-07-21T03:21:02.532Z - success: ui-tree loaded
+2018-07-21T03:21:02.532Z - success: weapp-adapter loaded
+2018-07-21T03:21:03.656Z - normal: Initializing project D:\project-cocos\monster-star-ts
+2018-07-21T03:21:03.662Z - normal: Loading packages
+2018-07-21T03:21:03.667Z - normal: Watching packages
+2018-07-21T03:21:03.924Z - normal: Run Application
+2018-07-21T03:21:04.640Z - success: preview server running at http://localhost:7456
+2018-07-21T03:21:09.300Z - normal: 1.9.3

@@ -71,7 +71,6 @@ var Game = /** @class */ (function (_super) {
     // 增加积分
     Game.prototype.gainScore = function () {
         this.score++;
-<<<<<<< HEAD
         // 拼接字符串
         this.scoreLabel.string = 'Score:' + this.score.toString();
     };
@@ -81,10 +80,6 @@ var Game = /** @class */ (function (_super) {
         this.playerNode.stopAllActions();
         // 启动开始场景
         cc.director.loadScene('game');
-=======
-        this.scoreLabel.string = 'Score: ' + this.score.toString();
-        console.log(this.scoreLabel.string);
->>>>>>> 154a41b2947654de198298777320ee0ce1160ba2
     };
     // LIFE-CYCLE CALLBACKS:
     // onLoad () {}
